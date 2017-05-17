@@ -12,14 +12,14 @@ $(document).ready(function (e){
 			switch(opt)
 	{
 		case 1:
-		navigator.notification.bee(1)
+		navigator.notification.bee(1);
 		break;
 	
 	case 2:
 	navigator.notification.vibrate(1000);
 	break;
 	}
-		},"Aplicacion7","Beep,Vibrar,Calcelar");
+		},"Aplicacion7","Beep,Vibrar,Cancelar");
 		
 	});
 	},false);
